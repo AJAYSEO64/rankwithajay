@@ -1,0 +1,26 @@
+RANK WITH AJAY — COMPLETE 28-TOOL WEBSITE
+
+This ZIP includes the original application assets, updated UI, all 28 tools,
+PHP live-check service, enabled configuration, routing, favicon and sitemap.
+Google Tag Manager GTM-WXWMZZC4 is included.
+Core Web Vitals is removed. No external API key is required.
+
+1. Back up any files currently in public_html.
+2. Upload this ZIP into public_html and extract directly there.
+3. Replace matching files; do not create an extra subfolder.
+4. Check public_html contains assets, api, extension, tools and index.html.
+5. Clear Hostinger cache, then refresh with Ctrl + Shift + R.
+6. Open /tools/, test a generator and a live status check. Verify GTM Preview.
+
+This COMPLETE package replaces api/seo.php and config-v1.js too. It includes
+public-IP validation with the earlier IPv6 correction. Your private CrUX key
+file is neither included nor needed. PHP 8.3 with cURL and DOM is required
+for live checks, as previously enabled on your hosting account.
+
+Checks: local assets, 28 hub routes, GTM snippets and archive integrity verified.
+Browser/mobile appearance, PHP execution and live GTM reporting remain unverified
+in this environment. No hosting deployment was performed here.
+
+This release applies the premium UI brief. Read DESIGN-RELEASE.txt for scope and QA limitations.
+
+LATEST: See SEPTEMBER-15-RELEASE.txt for this upload and current verification status.

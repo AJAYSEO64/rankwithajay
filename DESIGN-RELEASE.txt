@@ -1,0 +1,46 @@
+RANK WITH AJAY — PREMIUM UI / UX RELEASE
+
+COMPLETE HOSTINGER UPLOAD PACKAGE — all original assets included.
+Back up public_html; extract ZIP directly inside public_html and replace matching
+files. Keep any unrelated files. Clear hosting cache and hard-refresh the browser.
+
+NEW VISUAL LAYER
+- Central color, spacing, typography, radius and state tokens in premium-v3.css.
+- Compact shared tool-page header with keyboard-accessible mobile menu.
+- Tools directory: 28 category-labelled cards, mode labels, search and clearable
+  no-results state, consistent subtle card interactions.
+- White workspaces, consistent inputs, readable code outputs, FAQ expand/collapse
+  indicators, responsive forms, reduced-motion handling and visible focus rings.
+- Homepage: stronger spacing and typography plus a clearly illustrative tool
+  preview replacing the decorative ranking illustration. No added performance claims.
+- Existing React profile, editorial sections and SERP tool receive shared styling.
+  Existing biography, results, certifications and page content remain unchanged.
+- Full resource/legal footer on static tool pages; original React footer retained.
+- Nonintrusive download-request feedback. Existing copy behavior is retained.
+
+PRESERVED
+All 28 tool implementations, PHP service, API configuration, original compiled
+React application, routes, titles, descriptions, canonicals, schema, sitemap,
+robots directives, and existing static-page links are unchanged from the previous
+complete release. Core Web Vitals remains removed. GTM container GTM-WXWMZZC4
+remains present once per active document, with its noscript fallback.
+
+SOURCE LIMITATION
+The supplied project contains a compiled React/Vite build, not its editable
+React source. The redesign therefore uses shared CSS and a small presentation
+script, alongside the existing static page builders. No framework or dependency
+was added. extension/premium.py reapplies the static visual layer after rebuilding.
+
+VERIFIED
+Compared tool logic, backend, compiled assets and configuration byte-for-byte.
+Compared all static title/meta/canonical/schema tags and existing links.
+Checked 28 directory tools, unique element IDs, local asset references, GTM
+snippets and JavaScript syntax. Archive includes assets, api, extension, tools,
+index.html and routing files.
+
+OUTSTANDING QA — NOT PRODUCTION-VERIFIED
+The connected browser rejected the local preview with ERR_BLOCKED_BY_CLIENT.
+The requested 360/375/390/768/1024/1280/1440 visual checks and all-tool browser
+interaction checks could not be completed. PHP requests, clipboard/download
+permissions and GTM reporting need checking on the hosted copy. Existing
+Node logic tests are not a substitute for these checks. No deployment performed.

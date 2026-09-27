@@ -1,0 +1,64 @@
+# === Rank With Ajay — static React app on Hostinger (PHP/HTML hosting) ===
+
+# Force HTTPS
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# --- SPA fallback: send every non-file request to index.html ---
+# This is required so links like /tools/serp-preview and /about-ajay work on
+# refresh and when typed directly, since React Router handles routing
+# client-side.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # If the request is for an existing file or directory, serve it directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Otherwise, hand off to index.html so React Router can render the route
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# --- Compression ---
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/javascript application/javascript application/json image/svg+xml
+</IfModule>
+
+# --- Caching ---
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Hashed, versioned build assets can be cached for a long time
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+
+  # index.html should always be revalidated so users get new deploys
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|svg|png|jpg|jpeg|webp)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "index\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Prevent directory listing
+Options -Indexes
+
+# Revalidate editable extension assets and keep maintenance source private.
+<IfModule mod_headers.c>
+ <FilesMatch "^(tools|config|legacy-bridge)-v1\.(js|css)$">
+  Header set Cache-Control "no-cache, must-revalidate"
+ </FilesMatch>
+</IfModule>

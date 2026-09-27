@@ -1,0 +1,47 @@
+RANK WITH AJAY — SEPTEMBER 15 PLATFORM REDESIGN
+
+COMPLETE UPLOAD. Based on your latest public_html (1).zip.
+Back up public_html, upload this ZIP and extract its contents directly into
+public_html. Replace matching files. Keep unrelated files. Clear Hostinger
+cache and hard-refresh. assets, api, extension, tools and index.html are included.
+
+WHAT IS NEW
+Homepage search with instant suggestions, keyboard access and a search submission
+that filters the full homepage directory. All 28 tools appear in that directory.
+Consistent popular-tool cards and truthful 28-tools/free/no-signup value strip.
+Seven tool-hub categories, improved search aliases and category/mode labels.
+Shared card geometry, header widths, blue/navy tokens, compact mobile spacing,
+input/result separation, code surfaces and editorial/profile styling.
+Two prior presentation stylesheets are served as one consolidated platform file.
+No new framework, font, remote API, image library or animation library.
+
+PRESERVED
+Original compiled React tool algorithms, all generator scripts, PHP backend and
+configuration are byte-for-byte unchanged from your upload. All original files,
+static internal links, H1 counts, titles, descriptions, canonicals, JSON-LD,
+robots directives and sitemap are retained. GTM-WXWMZZC4 is retained.
+Core Web Vitals stays removed. The old route keeps its existing redirect.
+Blog/about content is preserved; no fabricated articles, dates or results added.
+
+VERIFICATION
+Static preservation/asset checks and JS syntax passed. Search tests cover meta
+aliases (including Open Graph), category intersections, whitespace/case and no
+results. These are code checks, not browser interaction checks.
+Browser/mobile visual QA and all-tool click/copy/download checks are outstanding.
+The prior connected preview was blocked; no new browser verification is claimed.
+Live PHP and GTM event delivery still require checks on the hosted copy.
+The source ZIP remains a compiled React build, not an editable Vite source project.
+
+REFERENCE STUDY (information architecture only; no copied text/CSS/components)
+https://mangools.com/ — curated tool presentation and learning resources.
+https://smallseotools.com/ — discoverability through task categories.
+https://www.semrush.com/ — task-first entry points and clear product groups.
+https://ahrefs.com/ — product grouping and concise platform positioning.
+https://neilpatel.com/ubersuggest/ — SEO tools alongside educational resources.
+
+MAINTENANCE
+extension/platform-v4.js owns added discovery interactions.
+extension/catalog-v4.js is generated from the existing 28-tool directory.
+extension/platform-extras.css owns this release's design refinements.
+extension/platform-build.py is the final presentation step in extension/build.py.
+No build step is required to upload the prepared package.

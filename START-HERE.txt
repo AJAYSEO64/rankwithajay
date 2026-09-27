@@ -1,0 +1,37 @@
+RANK WITH AJAY - REBASED ON YOUR LATEST PUBLIC_HTML ZIP
+24 September 2026
+
+This is a COMPLETE website package based on your latest uploaded ZIP.
+All existing tool JavaScript and PHP is preserved byte-for-byte.
+28 tools have explicit entry pages at their existing URLs. Five tools still
+use the original React application for their functionality; their new HTML
+entry files load that same application. No tool calculations were replaced.
+
+Green theme and GTM-WXWMZZC4 included.
+Blog: /blog/
+New guide: /blog/answer-engine-optimization-guide/
+Includes an overview of four modules and eleven lessons plus your unchanged
+complete PDF. The previous nine SEO myths carousel article redirects here.
+
+UPLOAD
+1. Back up your existing Hostinger public_html.
+2. Extract this ZIP. Its files go DIRECTLY inside public_html.
+   This ZIP does not contain an extra public_html folder.
+3. Upload all files/folders, merge folders and overwrite matching files.
+   Do not delete unrelated hosting files.
+4. Clear hosting cache and hard-refresh the browser.
+5. Open /tools/ and /blog/ and test the tool pages.
+
+If you uploaded the previous carousel package, you can remove its old
+assets/blog/9-seo-myths-ajay-krishnan.pdf and seo-myths-cover.png.
+The old article entry is overwritten with a redirect by this package.
+
+VERIFIED: 28 tool entry files; original JS/PHP preserved; asset links;
+GTM inclusion; sitemap XML; JavaScript syntax; new PDF matches your upload.
+Browser/mobile visual and live PHP testing remain outstanding.
+Earlier release notes in the package are historical; use this file.
+
+ANIMATION UPDATE
+Subtle one-time scroll entrances, button press feedback and desktop hover
+effects. Respects reduced-motion preferences. Content remains visible if
+JavaScript is unavailable. No animation library or tool logic changes.

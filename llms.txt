@@ -1,0 +1,8 @@
+## Pages
+- [| Rank With Ajay`}](/*): No description available
+- [About Ajay Krishnan – SEO & PPC Analyst | Rank With Ajay](/about-ajay): Meet Ajay Krishnan, an SEO & PPC Analyst working across SEO, technical SEO, keyword research, Google Ads and analytics. Explore his experience, work and SEO tools.
+- [Free SEO Tools for Better Rankings | Rank With Ajay](/): Free SEO tools for marketers, freelancers, businesses and website owners. Simplify everyday SEO tasks with practical tools from Rank With Ajay.
+- [Robots.txt Generator – Create a Robots.txt File | Rank With Ajay](/tools/robots-txt-generator): Generate a valid robots.txt file for your website. Control crawler access, add sitemap directives and download your robots.txt with this free tool.
+- [Schema Markup Generator – Create JSON-LD Structured Data | Rank With Ajay](/tools/schema-generator): Generate JSON-LD schema markup for Organization, Article, Product, LocalBusiness, BreadcrumbList and more with this free Schema Markup Generator.
+- [SEO Slug Generator – Create Clean URL Slugs | Rank With Ajay](/tools/slug-generator): Create clean, readable and SEO-friendly URL slugs from page titles and keywords with this free Slug Generator from Rank With Ajay.
+- [SERP Preview Tool – Preview Google Search Results | Rank With Ajay](/tools/serp-preview): Preview your SEO title, URL and meta description in a Google-style search result. Check desktop and mobile SERP snippets with this free SEO tool.
